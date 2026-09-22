@@ -1,0 +1,16 @@
+{
+  "name": "tablero-agroinsumos-chispa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Servidor del tablero de Agroinsumos Chispa: cachea los datos de Apps Script y sirve el tablero.",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
